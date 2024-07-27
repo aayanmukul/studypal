@@ -6,16 +6,16 @@ import { SignedIn, UserButton } from '@clerk/nextjs'
 
 const Navbar = () => {
   return (
-    <nav className = 'flex-between fixed z-50 w-full bg-dark-1 px-6 py-4 lg:px-10'>
+    <nav className = 'flex-between fixed z-50 w-full bg-dark-3 px-6 py-4 lg:px-10 border-black border-width-[3px]'>
       <Link href = "/" className = "flex items-center gap-1">
         <Image
-          src = "/icons/logo.svg"
+          src = "/icons/logo.png"
           width = {32}
           height = {32}
           alt = "Yoom logo"
           className = 'max-sm:size-10'
         />
-        <p className = "text-[26px] font-extrabold text-white max-sm:hidden">Yoom</p>
+        <p className = "text-[26px] font-extrabold text-white max-sm:hidden px-2">   StudyPal</p>
       </Link>
 
       <div className = "flex-between gap-5">

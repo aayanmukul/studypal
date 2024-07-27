@@ -8,7 +8,7 @@ import '@stream-io/video-react-sdk/dist/css/styles.css';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "YOOM",
+  title: "StudyPal",
   description: "Video Calling App",
   icons: {
     icon: '/icons/logo.svg'
